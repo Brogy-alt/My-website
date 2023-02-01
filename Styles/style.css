@@ -97,6 +97,11 @@ footer {
   }
   
 
+  #myImage {
+    display:none;
+}
+
+
 
 
 
@@ -107,6 +112,19 @@ footer {
         word-break: break-all;
     }
 }
+
+@media only screen and (max-width: 800px) {    
+    #myVideo {
+        display: none;
+    }
+    #myImage {
+        display:block;
+    }
+}
+
+
+
+
   
   
 
