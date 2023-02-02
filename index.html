@@ -13,77 +13,85 @@
 
 <body>
     <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <!-- Container wrapper -->
-            <div class="container">
-                <!-- Navbar brand -->
-                <a class="navbar-brand me-2" href="https://mdbgo.com/">
-                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="16"
-                        alt="MDB Logo" loading="lazy" style="margin-top: -1px;" />
-                </a>
 
-                <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
+       
 
-                <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
-                    <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Link</a>
-                        </li>
-                        <!-- Navbar dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                                data-mdb-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+        <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold text-light " href="#"  style="font-size: xx-large !important;">ProdBrogy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light " href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                      <li><a class="dropdown-item text-light " href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li class="nav-item dropend">
+                        <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                          <li><a class="dropdown-item text-light " href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li class="nav-item dropend">
+                            <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
                             </a>
-                            <!-- Dropdown menu -->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li>
-                                    <a class="dropdown-item text-light" href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-light" href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li>
-                                    <a class="dropdown-item text-light" href="#">Something else here</a>
-                                </li>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                              <li><a class="dropdown-item text-light " href="#">Another action</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li class="nav-item dropend">
+                                <a class="nav-link dropdown-toggle text-light " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-light " href="#">Action</a></li>
+                                  <li><a class="dropdown-item text-light " href="#">Another action</a></li>
+                                  <li>
+                                    <hr class="dropdown-divider">
+                                  </li>
+                                  <li><a class="dropdown-item text-light " href="#">Something else here</a></li>
+                                </ul>
+                              </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled text-light">Disabled</a>
-                        </li>
-
-                        <!-- Left links -->
-
-                </div>
-                <div class="d-flex align-items-center me-2">
-                    <button type="button" class="btn btn-link px-3 me-2 text-light">
-                        Login
-                    </button>
-                    <button type="button" class="btn btn-primary me-3 text-light">
-                        Sign up for free
-                    </button>
-                    <a class="btn btn-dark px-3" href="https://github.com/mdbootstrap/mdb-ui-kit" role="button"><i
-                            class="fab fa-github"></i></a>
-                </div>
-
-                <!-- Collapsible wrapper -->
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light ">Link</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-            <!-- Container wrapper -->
-        </nav>
-        <!-- Navbar -->
+          </nav>
+          
+      
     </header>
 
     <section class="video-main">
@@ -133,6 +141,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
+    
 </body>
 
 </html>
