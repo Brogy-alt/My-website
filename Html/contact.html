@@ -7,20 +7,20 @@
     <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="../Styles/contact.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg pt-3">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
               <a class="navbar-brand fw-bold text-light " href="#"  style="font-size: xx-large !important;">ProdBrogy</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon bg"></span>
+                <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active text-light " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active text-light " aria-current="page" href="/index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-light " href="/Html/products.html">Products</a>
@@ -37,14 +37,43 @@
             </div>
           </nav>
     </header>
-    <section class="video-main">
-        <video autoplay muted loop id="myVideo">
-            <source src="./Assets/Video/youtube_banner_vid_1.mp4" type="video/mp4">
-        </video>
-        <img src="/Assets/Imgs/youtube logo.jpg" alt="Img" id="myImage">
+
+        <section class="container">
+            <div class="contact pt-5">
+                <h2 class="text-light">Contact me</h2>
+                <form action="https://formspree.io/f/xbjbywjp" method="POST"><br>
+                    <div>
+                        <label class="text-light" for="#firstname" style="font-size:20px">Name</label>
+                        <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label class="text-light" for="#number" style="font-size:20px">Number</label>
+                        <input id="surname" name="surname" type="number" placeholder="Enter your Number" required>
+                    </div>
+                    <div>
+                        <label class="text-light" for="#Email" style="font-size:20px">Email</label>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your Email" required>
+                    </div>
+                    <div>
+                        <label class="text-light" for="#surname" style="font-size:20px">Surname</label>
+                        <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                    </div>
+                    <div>
+                        <label class="text-light" for="#message" style="font-size:20px">Message</label>
+                        <textarea name="message" cols="45" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="submit">
+                    </div>
+                    <br>
+                    
+                </form>
+            </div>
+            
+        </section>
+    <footer> 
+        
         <div class="gradient"></div>
-    </section>
-    <footer>
         <nav class="navbar navbar-expand-lg text-light bg-black ">
             <div class="container-fluid">
                 <div class="container text-center">
