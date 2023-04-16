@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#Hero{
+    height: 100vh;
+}
+
+.products{
+    height: 100%;
+}
+
+.product{
+    background-color: red;
+    height: 500px;
+    width: 300px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
